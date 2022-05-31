@@ -1,6 +1,7 @@
 body {
     margin: 0;
-padding-top: 800px;
+    padding-top: 800px;
+    text-align: center
 }
 
 .profile {
@@ -9,12 +10,19 @@ padding-top: 800px;
     border-radius: 50%;
 }
 
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
 #s1 {
     position: absolute;
     color: #FFFFFF;
     left: 0;
     top: 0;
-    
+
     bottom: 0;
     right: 0;
     opacity: 0.83;
@@ -23,6 +31,10 @@ padding-top: 800px;
     width: 100%;
     height: 800px;
     z-index: 9;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 .d1 {
@@ -54,7 +66,8 @@ h2 {
 #s2 {
     text-align: center
 }
-.menu{
+
+.menu {
     list-style: none;
     font-family: inherit;
     position: absolute;
@@ -63,15 +76,24 @@ h2 {
     right: 30px;
     cursor: pointer;
 }
-.links{
+
+.links {
     color: antiquewhite;
     padding-top: 7px;
-    padding-left:6px;
+    padding-left: 6px;
     padding-right: 6px;
     padding-bottom: 7px;
     font-family: sans-serif;
     float: right;
 }
-.links:hover{
+
+.links:hover {
     background-color: #d88f8f
 }
+
+a {
+    text-decoration: none
+}
+
+.a1:hover[color:#c0bae2;
+]
