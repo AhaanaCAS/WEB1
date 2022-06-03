@@ -70,7 +70,7 @@ h2 {
 .menu {
     list-style: none;
     font-family: inherit;
-    position: absolute;
+    position: fixed;
     top: 10px;
     z-index: 15;
     right: 30px;
@@ -88,12 +88,21 @@ h2 {
 }
 
 .links:hover {
-    background-color: #d88f8f
+    background-color: #d88f8f;
+    font-size: 25px;
 }
 
 a {
-    text-decoration: none
+    text-decoration: none;
+    color: azure;
+    text-shadow: 3px 3px purple;
 }
 
 .a1:hover[color:#c0bae2;
 ]
+#work a{
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color:blanchedalmond !important;
+}
+.contact_1 h3 { display: inline; }
